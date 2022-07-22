@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\assignmenttracker\view\TaskOverviewController.scala:114:28: value length is not a member of javafx.beans.property.ObjectProperty[javafx.collections.ObservableList[ch.makery.assignmenttracker.model.Task]][0m
+[0m[[0m[31merror[0m] [0m[0m        if(taskTable.items.length == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

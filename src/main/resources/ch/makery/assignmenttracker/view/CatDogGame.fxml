@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="300.0" maxWidth="600.0" prefHeight="300" prefWidth="600" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.assignmenttracker.view.CatDogGameController">
+   <children>
+      <Pane prefHeight="106.0" prefWidth="600" style="-fx-background-color: grey;">
+         <children>
+            <Text fill="WHITE" layoutX="498.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cat">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="313.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stomach fullness">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Label id="catStomachFullness" fx:id="catFullnessLabel" alignment="CENTER" layoutX="358.0" layoutY="53.0" prefHeight="31.0" prefWidth="58.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="416.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Group layoutX="24.0" layoutY="20.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handleCatMakeSound" text="Make Sound" />
+                  <Button layoutY="43.0" mnemonicParsing="false" onAction="#handleCatEat" prefHeight="25.0" prefWidth="82.0" text="Eat" />
+                  <Button layoutX="105.0" mnemonicParsing="false" onAction="#handleCatIntroduction" prefHeight="25.0" prefWidth="82.0" text="Who Am I" />
+                  <Button layoutX="105.0" layoutY="43.0" mnemonicParsing="false" onAction="#handleCatHitDog" prefHeight="25.0" prefWidth="82.0" text="Hit Dog" />
+               </children>
+            </Group>
+         </children>
+      </Pane>
+      <Pane layoutY="251.0" prefHeight="106.0" prefWidth="600" style="-fx-background-color: grey;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dog">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="132.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stomach fullness">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Label id="dogStomachFullness" fx:id="dogFullnessLabel" alignment="CENTER" layoutX="177.0" layoutY="46.0" prefHeight="31.0" prefWidth="58.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="240.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Group layoutX="399.0" layoutY="19.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handleDogMakeSound" text="Make Sound" />
+                  <Button layoutY="43.0" mnemonicParsing="false" onAction="#handleDogEat" prefHeight="25.0" prefWidth="82.0" text="Eat" />
+                  <Button layoutX="105.0" mnemonicParsing="false" onAction="#handleDogIntroduction" prefHeight="25.0" prefWidth="82.0" text="Who Am I" />
+                  <Button layoutX="105.0" layoutY="43.0" mnemonicParsing="false" onAction="#handleDogHitCat" prefHeight="25.0" prefWidth="82.0" text="Hit Cat" />
+               </children>
+            </Group>
+         </children>
+      </Pane>
+      <Label id="dogDialogLabel" fx:id="dialogLabel" alignment="CENTER" layoutX="147.0" layoutY="105.0" prefHeight="146.0" prefWidth="294.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="dogImage" fitHeight="119.0" fitWidth="133.0" layoutX="14.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="catImage" fitHeight="119.0" fitWidth="133.0" layoutX="453.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

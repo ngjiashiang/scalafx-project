@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(9986f211-b742-4383-82f2-c3b9af184168), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\User\Desktop\oop_class\finals\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\address\MainApp.scala:6:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.{NoDependencyResolver, FXMLView, FXMLLoader}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\address\MainApp.scala:13:20: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new FXMLLoader(rootResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\address\MainApp.scala:13:45: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new FXMLLoader(rootResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\address\MainApp.scala:28:22: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(resource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\address\MainApp.scala:28:43: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(resource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Jul 14, 2022 2:56:25 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

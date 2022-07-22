@@ -1,0 +1,103 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(ed572910-e10b-4784-a4b5-1f17eccb42f4), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources to C:\Users\User\Desktop\oop_class\finals\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\expense\MainApp.scala:7:26: object model is not a member of package ch.makery.expense[0m
+[0m[[0m[31merror[0m] [0m[0mimport ch.makery.expense.model.Task[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\expense\MainApp.scala:16:42: not found: type Task[0m
+[0m[[0m[31merror[0m] [0m[0m  val expenseData = new ObservableBuffer[Task]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\ch\makery\expense\model\Task.scala:9:48: not found: value descriptionS[0m
+[0m[[0m[31merror[0m] [0m[0m    var taskDescription   = new StringProperty(descriptionS)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:76:26: object model is not a member of package ch.makery.expense[0m
+[0m[[0m[31merror[0m] [0m[0mimport ch.makery.expense.model.Task[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:87:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.TypecheckException: not found: type Task[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$3(Typers.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$2(Typers.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.doTypecheck$1(Typers.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$7(Typers.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Trees.wrappingIntoTerm(Trees.scala:1756)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Trees.wrappingIntoTerm$(Trees.scala:1753)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.SymbolTable.wrappingIntoTerm(SymbolTable.scala:28)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck(Typers.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck$(Typers.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.toType$1(sfxmlMacro.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:99)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:169)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:167)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:89:39: not found: type Task[0m
+[0m[[0m[31merror[0m] [0m[0m    private val taskTable : TableView[Task],[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:90:45: not found: type Task[0m
+[0m[[0m[31merror[0m] [0m[0m    private val taskNameLabel : TableColumn[Task, String],[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:91:48: not found: type Task[0m
+[0m[[0m[31merror[0m] [0m[0m    private val taskSubjectLabel : TableColumn[Task, String],[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:92:52: not found: type Task[0m
+[0m[[0m[31merror[0m] [0m[0m    private val taskDescriptionLabel : TableColumn[Task, String],[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:97:31: value taskData is not a member of object ch.makery.expense.MainApp[0m
+[0m[[0m[31merror[0m] [0m[0m    taskTable.items = MainApp.taskData[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:100:5: not found: value taskNameColumn[0m
+[0m[[0m[31merror[0m] [0m[0m    taskNameColumn.cellValueFactory = {_.value.taskName}[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:101:5: not found: value taskSubjectColumn[0m
+[0m[[0m[31merror[0m] [0m[0m    taskSubjectColumn.cellValueFactory  = {_.value.taskSubject}[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:102:5: not found: value taskDescriptionColumn[0m
+[0m[[0m[31merror[0m] [0m[0m    taskDescriptionColumn.cellValueFactory  = {_.value.taskDescription}[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:109:48: not found: type Task[0m
+[0m[[0m[31merror[0m] [0m[0m    private def showTaskDetails (task : Option[Task]) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:113:41: value taskName is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m            taskNameLabel.text <== task.taskName[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:114:44: value taskSubject is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m            taskSubjectLabel.text <== task.taskSubject[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:115:48: value taskDescription is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m            taskDescriptionLabel.text <== task.taskDescription[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:116:29: value tex is not a member of scalafx.scene.control.Label[0m
+[0m[[0m[31merror[0m] [0m[0m            taskRemarkLabel.tex <== task.taskRemark;[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:116:42: value taskRemark is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m            taskRemarkLabel.tex <== task.taskRemark;[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:117:13: not found: value dateLabel[0m
+[0m[[0m[31merror[0m] [0m[0m            dateLabel.text  = task.date.value.asString[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:125:13: not found: value dateLabel[0m
+[0m[[0m[31merror[0m] [0m[0m            dateLabel.text = ""[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:106:10: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m        (_, _, _, newValue) => showTaskDetails(Some(newValue))[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:106:13: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m        (_, _, _, newValue) => showTaskDetails(Some(newValue))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:106:16: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m        (_, _, _, newValue) => showTaskDetails(Some(newValue))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:106:19: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m        (_, _, _, newValue) => showTaskDetails(Some(newValue))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Desktop\oop_class\finals\src\main\scala\view\TaskOverviewController.scala:135:28: javafx.beans.property.ObjectProperty[javafx.collections.ObservableList[<error>]] does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m            taskTable.items().remove(selectedIndex);[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m26 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Jul 16, 2022 5:32:12 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

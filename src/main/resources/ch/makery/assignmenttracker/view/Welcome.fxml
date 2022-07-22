@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.assignmenttracker.view.WelcomeController">
+   <children>
+      <Text layoutX="45.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Assignment Task Tracking">
+         <font>
+            <Font size="33.0" />
+         </font></Text>
+      <HBox layoutX="205.0" layoutY="179.0" spacing="30.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleTaskTracking" prefHeight="80.0" prefWidth="80.0" text="GO">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleAbout" prefHeight="80.0" prefWidth="80.0" text="About">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button layoutX="459.0" layoutY="340.0" mnemonicParsing="false" onAction="#handleCatDog" prefHeight="25.0" prefWidth="96.0" text="Cat Dog Game" textAlignment="CENTER" wrapText="true" />
+      <Text layoutX="188.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you are feeling bored doing your assignments, heres a a mini game" />
+   </children>
+</AnchorPane>
